@@ -22,7 +22,6 @@ const productos = [
             "img/dildo-bananin-negro.jpg"
         ],
         descripcion: "Posee una textura siliconada que se adapta la temperatura corporal, Su forma anatómica y sus venas intensificarán el momento de placer incluye sopapa y es compatible con arnes medidas: 21cm x 3,5 cm color: piel negro"
-        
     },
     {
         id: 3,
@@ -35,7 +34,6 @@ const productos = [
             "img/dildochasehunter1.jpg"
         ],
         descripcion: "Material CyberSkin (textura súper realista, flexible y de tacto templado) con detalles anatómicos marcados (venas y glande), Base con ventosa potente para fijar en superficies lisas o usar con arnés. Usar solo lubricante a base de agua y aplicar polvo renovador (o almidón de maíz) tras lavarlo para mantener la suavidad. Dimensiones : 17cm de largo x 4 cm de ancho"
-        
     },
     // 2. ESTIMULADORES Y VIBRADORES
     {
@@ -64,7 +62,7 @@ const productos = [
         descripcion: "Consolador vibrador dual Pretty Love Hyman, con doble motor. Tiene 30 funciones de vibración, mide 20 cm de largo por 3,2 cm de diámetro y usa 2 pilas AAA (no incluidas).",
         colores: ["rosa"]
     },
-     {
+    {
         id: 20,
         nombre: "Vibrador Pretty Love Punto G BECK",
         categoria: "estimuladores-vibradores",
@@ -91,7 +89,7 @@ const productos = [
         descripcion: "Vibrador portátil para bragas: el diseño portátil hace que sea seguro permanecer en tus bragas, y su diseño silencioso es perfecto para que lo disfrutes en público. Control de aplicaciones dentro de los 10 metros, experimente una ola de emoción en cualquier momento y en cualquier lugar. Esta bala vibradora maximiza la masturbación y te ayuda a obtener placer sexual, para que solo tengas que disfrutar de esta emocionante aventura. Material Premium: vibrador 100% impermeable para estimulación compartida durante el coito o la masturbación. Está hecho de material de silicona médica seguro, suave, delicado y agradable para la piel, lo que le brinda un toque sedoso.",
         colores: ["Fucsia"]
     },
-     {
+    {
         id: 32,
         nombre: "Bala Vibradora Recargable USB - Control Inalámbrico, 10 Ritmos, Textura Soft Touch",
         categoria: "balas-huevos",
@@ -127,8 +125,7 @@ const productos = [
             "img/succionador-pila-diezfunciones1.jpg",
             "img/succionador-pila-diezfunciones2.jpg"
         ],
-        descripcion: "Este vibrador de succión del clítoris con ondas de presión y la vibración te permitirán disfrutar de un placer completo con un final MUY feliz Tiene 10 modos intensidades. Además de estimular tu clítoris lo podés usar también para estimular y succionar tus pezones",
-        
+        descripcion: "Este vibrador de succión del clítoris con ondas de presión y la vibración te permitirán disfrutar de un placer completo con un final MUY feliz Tiene 10 modos intensidades. Además de estimular tu clítoris lo podés usar también para estimular y succionar tus pezones"
     },
     // 5. ANALES
     {
@@ -151,12 +148,12 @@ const productos = [
         imagenes: [
             "img/estaca-anal-maciza.jpg",
             "img/estaca-anal-maciza1.jpg",
-             "img/estaca-anal-maciza2.jpg"
+            "img/estaca-anal-maciza2.jpg"
         ],
         descripcion: "Este plug anal con diseño chico y macizo, cónico ascendente inexpulsable, bien lubricado, se abrirá paso sin problemas, gracias a su deslizante material de silicona, ayudándote a alcanzar ese punto que siempre has buscado. Material: Silicona Medidas: 9cm de largo x 3cm de ancho (en base) ",
         colores: ["Piel", "Negro", "Rojo"]
     },
-     {
+    {
         id: 29,
         nombre: "Masajeador Prostatico Rim Raider",
         categoria: "anales",
@@ -175,7 +172,6 @@ const productos = [
         precio: 13500,
         imagenes: [
             "img/dilatador-anal-escalonado.jpg"
-            
         ],
         descripcion: " Dilatador anal inexpulsable, diseñado para una mejor dilatación, progresiva con esferas de diferentes tamaños que puedes alternar, sin dolor y que a la vez resulte estimulante. Material: Silicona Medidas: 16 cm x 3 cm aproximadamente.",
         colores: ["Negro"]
@@ -208,7 +204,7 @@ const productos = [
     },
     // 7. ANILLOS VIBRADORES
     {
-        id:25 ,
+        id: 25,
         nombre: "Anillo Erector Doble",
         categoria: "anillos-vibradores",
         precio: 14700,
@@ -219,8 +215,8 @@ const productos = [
         descripcion: "diseñado para potenciar la experiencia y prolongar el placer. Fabricado con silicona suave y flexible, se adapta cómodamente para ofrecer mayor firmeza y resistencia durante el encuentro. Su diseño ergonómico permite una doble acción que estimula y mejora la circulación, garantizando sensaciones intensas y duraderas.",
         colores: ["Negro"]
     },
-     {
-        id:26 ,
+    {
+        id: 26,
         nombre: "Anillo Extra Orgasmico",
         categoria: "anillos-vibradores",
         precio: 22200,
@@ -232,7 +228,7 @@ const productos = [
         colores: ["Rojo"]
     },
     {
-        id:27 ,
+        id: 27,
         nombre: "Anillo Erector El Torito",
         categoria: "anillos-vibradores",
         precio: 22900,
@@ -243,7 +239,6 @@ const productos = [
         descripcion: " Suave anillo de silicona mejora la erección en el hombre al mantener erecto el Pene, la cabeza y los cuernos de Toro acarician el clítoris provocando una sensación de Placer extremo según la velocidad de su vibrador incorporado con regulador de intensidad. ",
         colores: ["Rojo", "Azul"]
     },
-    
     // 8. ESPOSAS, TOBILLERAS, ARNES
     {
         id: 6,
@@ -289,7 +284,6 @@ const productos = [
         precio: 12200,
         imagenes: [
             "img/esposas-rojas-peluche.jpg"
-            
         ],
         descripcion: "Esposas de cuero vegano con cadena y mosquetón. Ajustable a cada muñeca, ya que trae varias opciones para adaptar el tamaño. Totalmente acolchonadas con peluche en su interior, Medidas:23 cm de Largo 5 cm de ancho aprox",
         colores: ["ROJO"]
@@ -306,8 +300,8 @@ const productos = [
         descripcion: "Antifaz ciego con tachas de cuero. El mejor para juegos de rol y disfraces, con elasticos adaptables a la cabeza para una mejor comodidad y experiencia.",
         colores: ["Negro"]
     },
-    //LENCERIA MASCULINA
-     {
+    // LENCERIA MASCULINA
+    {
         id: 17,
         nombre: "Suspensor Zunga Triangulito",
         categoria: "lenceria-masculina",
@@ -333,7 +327,6 @@ const productos = [
         descripcion: "24 desafios para un placer apasionante. turnense para girar la flecha y el numero determinara su desafio, afronten este apasionante reto y experimenten del placer y la intimidad juntos",
         colores: ["Único"]
     },
-     
     {
         id: 8,
         nombre: "Dados Eróticos Zero Routine: Lugares Y Acciones",
@@ -346,7 +339,6 @@ const productos = [
         descripcion: "Dale sabor a tu vida amorosa con este juego de dados eróticos para adultos que incorpora 60 opciones de juegos previos eróticos para parejas aventureras, bellamente confeccionados para ser el regalo perfecto.¡Mejora y estimula tu relación tirando juntos los dados de 6 y 10 caras para generar hasta 60 juegos previos traviesos pero agradables para él o ella antes del sexo. Las características incluyen: Dos dados de juego Idioma:INGLES",
         colores: ["Único"]
     },
-   
     {
         id: 9,
         nombre: "Dados Eróticos Zero Routine: 24 Posiciones",
@@ -359,7 +351,7 @@ const productos = [
         descripcion: "Dale sabor a tu vida amorosa con este juego de dados eróticos para parejas aventureras, bellamente confeccionados para ser el regalo perfecto. ¡Mejora y estimula tu relación tirando juntos los dados de 12 caras para generar hasta 24 posiciones traviesas para tener sexo",
         colores: ["Único"]
     },
-     {
+    {
         id: 10,
         nombre: "Dados eroticos rojos:posicion y lugar",
         categoria: "juegos-sexuales",
@@ -372,7 +364,7 @@ const productos = [
         descripcion: "Dale sabor a tu vida amorosa con este juego de dados eróticos para parejas aventureras, incluye dos dados que indican posiciones y lugares de la casa donde realizarlas, vienen en una elegante bolsa de tela",
         colores: ["Único"]
     },
-     {
+    {
         id: 11,
         nombre: "Dados eroticos azules:parte de cuerpo y accion",
         categoria: "juegos-sexuales",
@@ -399,7 +391,7 @@ const productos = [
         colores: ["Único"]
     },
     // 11. SADO
-   {
+    {
         id: 14,
         nombre: "latigo corto cuero vegano 45cm",
         categoria: "sado",
@@ -437,7 +429,7 @@ const productos = [
             "img/gel-chocolate-flynight2.jpg"
         ],
         descripcion: "A base de agua (soluble en agua), comestible sabor chocolate y apto para uso oral, anal y vaginal.",
-        colores: [ "Chocolate", ]
+        colores: ["Chocolate"]
     },
     {
         id: 42,
@@ -446,13 +438,12 @@ const productos = [
         precio: 10500,
         imagenes: [
             "img/gel-missv-chupaleta.jpg",
-            "img/gel-missv-chupaleta1.jpg",
-           
+            "img/gel-missv-chupaleta1.jpg"
         ],
         descripcion: "A base de agua (soluble en agua), comestible sabor chupaleta y apto para uso oral, anal y vaginal.",
-        colores: [ "Chupaleta", ]
+        colores: ["Chupaleta"]
     },
-     {
+    {
         id: 45,
         nombre: "Gel Sextual Saborizado",
         categoria: "saborizados",
@@ -463,9 +454,8 @@ const productos = [
             "img/gel-sextual-frutilla.jpg"
         ],
         descripcion: "Sextual te acerca su línea de productos desarrollados para quienes deseen obtener nuevas sensaciones placenteras con la más alta calidad. Sextual es SEGURO debido a su compatibilidad con el pH (Coeficiente que indica el grado de acidez) de las mucosas anal y vaginal y debido a su alto poder de lubricación. Disminuye la posibilidad de dolor",
-        colores: [ "Frutilla", "Chicle","Rosas"]
+        colores: ["Frutilla", "Chicle", "Rosas"]
     },
-    
     {
         id: 37,
         nombre: "Crema Lubricante Anal Calins Relajante",
@@ -509,7 +499,6 @@ const productos = [
         precio: 7800,
         imagenes: [
             "img/gel-sextual-frio.jpg"
-        
         ],
         descripcion: "el lubricante íntimo con efecto frío (Ice) de la marca Sextual, línea Sens. Presentación en frasco transparente de 80 ml con tapa dispensadora flip-top. Fórmula de base acuosa, textura fluida y transparente. Ideal para uso personal o en pareja, aportando una sensación refrescante durante la intimidad. Envase compacto y práctico, fácil de transportar.",
         colores: ["Neutro"]
@@ -563,7 +552,7 @@ const productos = [
     {
         id: 39,
         nombre: "Aceite 2 en 1 Magic Dual Aromatizado",
-        categoria: ["aceites" ,"masajes"],
+        categoria: ["aceites", "masajes"],
         precio: 16000,
         imagenes: [
             "img/magicdual-caramelo-masajes.jpg",
@@ -585,18 +574,18 @@ const productos = [
         colores: ["Neutro"]
     },
     {
-    id: 49,
+        id: 49,
         nombre: "Aceite Body Oil Sextual Aromatizado 60ML",
         categoria: "aceites",
         precio: 7200,
         imagenes: [
             "img/aceite-sextual-aromatizado.jpg",
             "img/aceite-sextual-aromatizado1.jpg"
-            ],
+        ],
         descripcion: "Los aceites sexuales aromatizados y corporales están diseñados para masajes sensuales y juegos previos",
-        colores: ["Neutro", "Cereza","Vainilla"]
+        colores: ["Neutro", "Cereza", "Vainilla"]
     },
-      {
+    {
         id: 44,
         nombre: "Crema Sensual Masasage de Coco 200grs",
         categoria: "masajes",
@@ -631,7 +620,7 @@ const productos = [
             "img/bodysplash-glitter1.jpg"
         ],
         descripcion: "Be Body Splash Con Feromonas Con Glitter! Contenido: 60 Ml. Irresistible como siempre. Irresistible como vos. Con pequeños destellos de luz que iluminan tu piel."
-    },
+    }
 ];
 
 let carrito = [];
@@ -671,7 +660,7 @@ function mostrarProductosEnPantalla(lista) {
     });
 }
 
-// FUNCIONALIDAD DEL MODAL
+// FUNCIONALIDAD DEL MODAL DETALLE
 function abrirModalDetalle(id) {
     productoModalActual = productos.find(p => p.id === id);
     if (!productoModalActual) return;
@@ -715,7 +704,6 @@ function abrirModalDetalle(id) {
     document.getElementById('modal-producto-overlay').classList.add('activo');
 }
 
-// Navegación de Imágenes en Modal
 function actualizarImagenModal() {
     const imgs = productoModalActual.imagenes || [productoModalActual.imagen];
     document.getElementById('modal-img-principal').src = imgs[indiceImagenModal];
@@ -745,7 +733,6 @@ function cambiarImagenModal(direccion) {
     actualizarImagenModal();
 }
 
-// Control de Cantidad dentro del Modal
 function cambiarCantidadModal(cambio) {
     const input = document.getElementById('modal-cantidad-input');
     let val = parseInt(input.value) || 1;
@@ -770,7 +757,7 @@ function cerrarModalDetalleDirecto() {
     document.getElementById('modal-producto-overlay').classList.remove('activo');
 }
 
-// Filtro por Búsqueda
+// FILTROS
 function filtrarPorTexto() {
     const textoBuscado = document.getElementById('input-buscar').value.toLowerCase();
     document.querySelectorAll('.btn-cat, .dropdown-contenido .btn-cat').forEach(btn => btn.classList.remove('activo'));
@@ -784,8 +771,6 @@ function filtrarPorTexto() {
     mostrarProductosEnPantalla(filtrados);
 }
 
-// Filtro por Categorías
-// Filtro por Categorías
 function filtrarCategoria(cat, elemento) {
     document.getElementById('input-buscar').value = '';
     document.querySelectorAll('.btn-cat, .dropdown-contenido .btn-cat').forEach(btn => btn.classList.remove('activo'));
@@ -807,14 +792,12 @@ function filtrarCategoria(cat, elemento) {
     if (cat === 'todos') {
         filtrados = productos;
     } else if (cat === 'lubricantes') {
-        // Verifica si al menos UNA de las categorías del producto está en el grupo de lubricantes
         filtrados = productos.filter(p => 
             Array.isArray(p.categoria)
                 ? p.categoria.some(c => subcategoriasLubricantes.includes(c))
                 : subcategoriasLubricantes.includes(p.categoria)
         );
     } else {
-        // Verifica si la categoría buscada está dentro del array de categorías del producto
         filtrados = productos.filter(p => 
             Array.isArray(p.categoria)
                 ? p.categoria.includes(cat)
@@ -824,7 +807,8 @@ function filtrarCategoria(cat, elemento) {
 
     mostrarProductosEnPantalla(filtrados);
 }
-// Agregar al carrito
+
+// CARRITO
 function agregarAlCarrito(id, colorElegido = null, cantidadSumar = 1) {
     const prod = productos.find(p => p.id === id);
     const colorFinal = colorElegido || (prod.colores ? prod.colores[0] : null);
@@ -840,7 +824,6 @@ function agregarAlCarrito(id, colorElegido = null, cantidadSumar = 1) {
     actualizarCarritoUI();
 }
 
-// Cambiar cantidades en carrito lateral
 function cambiarCantidad(id, color, cambio) {
     const item = carrito.find(p => p.id === id && p.color === color);
     if (!item) return;
@@ -854,7 +837,6 @@ function cambiarCantidad(id, color, cambio) {
     actualizarCarritoUI();
 }
 
-// Actualizar Carrito UI
 function actualizarCarritoUI() {
     const totalItems = carrito.reduce((acc, item) => acc + item.cantidad, 0);
     document.getElementById('cant-carrito').innerText = totalItems;
@@ -894,23 +876,59 @@ function actualizarCarritoUI() {
     document.getElementById('monto-total').innerText = `$${totalMonto.toLocaleString('es-AR')}`;
 }
 
-// Menú Lateral Carrito
 function toggleMenuCarrito() {
     document.getElementById('menu-carrito').classList.toggle('activo');
     document.getElementById('overlay-carrito').classList.toggle('activo');
 }
 
-// Enviar Pedido a WhatsApp
-function enviarWhatsApp() {
+// MODAL Y FORMULARIO DE ENVÍO
+function abrirModalEnvio() {
     if (carrito.length === 0) {
         alert("El carrito está vacío.");
         return;
     }
+    toggleMenuCarrito();
+    document.getElementById('modal-envio-overlay').classList.add('activo');
+}
 
-    const numeroTelefono = "5493516199806";
-    let mensaje = "¡Hola! Quisiera realizar el siguiente pedido:\n\n";
+function cerrarModalEnvio(e) {
+    if (e.target.id === 'modal-envio-overlay') {
+        document.getElementById('modal-envio-overlay').classList.remove('activo');
+    }
+}
+
+function cerrarModalEnvioDirecto() {
+    document.getElementById('modal-envio-overlay').classList.remove('activo');
+}
+
+// Ocultar / Mostrar Campos de Dirección según la entrega
+function toggleSeccionDireccion() {
+    const tipoEntrega = document.getElementById('envio-tipo-entrega').value;
+    const seccionDireccion = document.getElementById('seccion-direccion');
+    const inputsDireccion = seccionDireccion.querySelectorAll('input[required]');
+
+    if (tipoEntrega === 'Retiro en Local/Punto de Encuentro') {
+        seccionDireccion.classList.add('oculto');
+        inputsDireccion.forEach(inp => inp.removeAttribute('required'));
+    } else {
+        seccionDireccion.classList.remove('oculto');
+        inputsDireccion.forEach(inp => inp.setAttribute('required', 'true'));
+    }
+}
+
+// Procesar Formulario y Enviar Pedido a WhatsApp
+function procesarEnvioWhatsApp(e) {
+    e.preventDefault();
+
+    const nombre = document.getElementById('envio-nombre').value.trim();
+    const telefono = document.getElementById('envio-telefono').value.trim();
+    const tipoEntrega = document.getElementById('envio-tipo-entrega').value;
+    const medioPago = document.getElementById('envio-pago').value;
+
+    let mensaje = `¡Hola! Quisiera realizar el siguiente pedido:\n\n`;
+    mensaje += `🛒 *PRODUCTOS:*\n`;
+
     let total = 0;
-
     carrito.forEach(item => {
         const subtotal = item.precio * item.cantidad;
         total += subtotal;
@@ -918,10 +936,33 @@ function enviarWhatsApp() {
         mensaje += `• ${item.cantidad}x ${item.nombre}${textoColor} ($${subtotal.toLocaleString('es-AR')})\n`;
     });
 
-    mensaje += `\n*Total (Contado):* $${total.toLocaleString('es-AR')}`;
-    mensaje += `\n\n_Solicito envío en empaque 100% discreto._`;
+    mensaje += `\n💰 *Total (Contado):* $${total.toLocaleString('es-AR')}\n\n`;
+    mensaje += `📋 *DATOS DEL PEDIDO:*\n`;
+    mensaje += `• *Cliente:* ${nombre}\n`;
+    mensaje += `• *Teléfono:* ${telefono}\n`;
+    mensaje += `• *Entrega:* ${tipoEntrega}\n`;
+    mensaje += `• *Medio de Pago:* ${medioPago}\n`;
 
+    if (tipoEntrega === 'Envío a Domicilio') {
+        const localidad = document.getElementById('envio-localidad').value.trim();
+        const barrio = document.getElementById('envio-barrio').value.trim();
+        const calle = document.getElementById('envio-calle').value.trim();
+        const piso = document.getElementById('envio-piso').value.trim();
+        const observaciones = document.getElementById('envio-observaciones').value.trim();
+
+        mensaje += `• *Dirección:* ${calle}${piso ? ', Piso/Depto: ' + piso : ''}\n`;
+        mensaje += `• *Barrio/Localidad:* ${barrio}, ${localidad}\n`;
+        if (observaciones) {
+            mensaje += `• *Notas:* ${observaciones}\n`;
+        }
+    }
+
+    mensaje += `\n_Solicito empaque 100% discreto._`;
+
+    const numeroTelefono = "5493516199806";
     const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`;
+
+    cerrarModalEnvioDirecto();
     window.open(url, '_blank');
 }
 
