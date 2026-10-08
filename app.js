@@ -883,7 +883,7 @@ function enviarWhatsApp() {
         return;
     }
 
-    const numeroTelefono = "5493510000000";
+    const numeroTelefono = "5493516199806";
     let mensaje = "¡Hola! Quisiera realizar el siguiente pedido:\n\n";
     let total = 0;
 
