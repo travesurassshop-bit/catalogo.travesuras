@@ -491,6 +491,18 @@ const productos = [
         colores: ["Neutro"]
     },
     {
+        id: 50,
+        nombre: "Crema Anal c/ Calendula Wild The Boys",
+        categoria: "cremas-anales",
+        precio: 27500,
+        imagenes: [
+            "img/crema-anal-calendula.jpg",
+            "img/crema-anal-calendula1.jpg"
+        ],
+        descripcion: "¡Descubrí una experiencia anal más cómoda, suave y placentera! The Wild Boys Gel Íntimo Anal está especialmente formulado para relajar la zona sin perder sensibilidad, facilitando la exploración y permitiendo disfrutar cada momento con mayor confianza y bienestar. Su fórmula cremosa, enriquecida con caléndula, hidrata, suaviza y protege la piel, proporcionando una sensación calmante ideal tanto para principiantes como para quienes ya disfrutan de esta práctica.",
+        colores: ["Neutro"]
+    },
+    {
         id: 48,
         nombre: "Gel Sextual Efecto frio 80ml",
         categoria: "efecto-frio",
@@ -571,6 +583,18 @@ const productos = [
         ],
         descripcion: "Aceite Lubricante intimo para masturbación con colágeno, humecta y protege la piel. Efecto Cálido. Beneficios: Colágeno que aporta una mayor humectación y protección de la piel. Efecto cálido. No posee sabor ni aroma.",
         colores: ["Neutro"]
+    },
+    {
+    id: 49,
+        nombre: "Aceite Body Oil Sextual Aromatizado 60ML",
+        categoria: "aceites",
+        precio: 7200,
+        imagenes: [
+            "img/aceite-sextual-aromatizado.jpg",
+            "img/aceite-sextual-aromatizado1.jpg"
+            ],
+        descripcion: "Los aceites sexuales aromatizados y corporales están diseñados para masajes sensuales y juegos previos",
+        colores: ["Neutro", "Cereza","Vainilla"]
     },
       {
         id: 44,
