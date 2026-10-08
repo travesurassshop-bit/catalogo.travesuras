@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travesuras SexShop - Catálogo</title>
+    <!-- Tipografía estilizada de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado con base negra -->
+    <header class="header-principal">
+        <div class="header-logo">
+            <span class="nombre-marca">TRAVESURAS</span>
+            <span class="subtitulo-sexshop">SEXSHOP</span>
+        </div>
+
+        <div class="header-busqueda">
+            <input type="text" id="input-buscar" placeholder="Buscar productos..." oninput="filtrarPorTexto()">
+        </div>
+
+        <div class="header-info">
+            <p class="envio-discreto">📦 Envíos 100% discretos</p>
+            <p class="envio-zona">Envíos a toda la ciudad • Gratis en Zona Sur</p>
+        </div>
+    </header>
+
+    <!-- BANNER DE IMAGEN DESDE TU PC -->
+    <div class="contenedor-banner-img">
+        <img src="banner.jpg" alt="Banner Promocional Travesuras SexShop" class="banner-img">
+    </div>
+
+    <!-- Slogan / Leyenda -->
+    <section class="banner-slogan">
+        <p>DEJA ATRAS LOS TABUES Y DALE RIENDA SUELTA A TU IMAGINACION</p>
+    </section>
+
+    <!-- Barra de Categorías -->
+    <nav class="categorias">
+        <button class="btn-cat activo" onclick="filtrarCategoria('todos', this)">TODOS</button>
+        <button class="btn-cat" onclick="filtrarCategoria('dildos', this)">DILDOS</button>
+        <button class="btn-cat" onclick="filtrarCategoria('estimuladores-vibradores', this)">ESTIMULADORES Y VIBRADORES</button>
+        <button class="btn-cat" onclick="filtrarCategoria('balas-huevos', this)">BALAS Y HUEVOS VIBRADORES</button>
+        <button class="btn-cat" onclick="filtrarCategoria('succionadores', this)">SUCCIONADORES</button>
+        <button class="btn-cat" onclick="filtrarCategoria('anales', this)">ANALES</button>
+        <button class="btn-cat" onclick="filtrarCategoria('fundas-peneanas', this)">FUNDAS PENEANAS</button>
+        <button class="btn-cat" onclick="filtrarCategoria('anillos-vibradores', this)">ANILLOS VIBRADORES</button>
+        <button class="btn-cat" onclick="filtrarCategoria('esposas-tobilleras-arnes', this)">ESPOSAS, TOBILLERAS, ARNES</button>
+        <button class="btn-cat" onclick="filtrarCategoria('mascaras-antifaces', this)">MÁSCARAS Y ANTIFACES</button>
+        <button class="btn-cat" onclick="filtrarCategoria('juegos-sexuales', this)">JUEGOS SEXUALES</button>
+        <button class="btn-cat" onclick="filtrarCategoria('sado', this)">SADO</button>
+        <button class="btn-cat" onclick="filtrarCategoria('lenceria-femenina', this)">LENCERIA FEMENINA</button>
+        <button class="btn-cat" onclick="filtrarCategoria('lenceria-masculina', this)">LENCERIA MASCULINA</button>
+        
+        <!-- Categoría LUBRICANTES con Submenú Desplegable -->
+        <div class="dropdown-categoria">
+            <button class="btn-cat btn-dropdown" onclick="filtrarCategoria('lubricantes', this)">
+                LUBRICANTES <span class="flecha-down">▾</span>
+            </button>
+            <div class="dropdown-contenido">
+                <button class="btn-cat" onclick="filtrarCategoria('saborizados', this)">SABORIZADOS</button>
+                <button class="btn-cat" onclick="filtrarCategoria('cremas-anales', this)">CREMAS ANALES</button>
+                <button class="btn-cat" onclick="filtrarCategoria('efecto-frio', this)">EFECTO FRÍO</button>
+                <button class="btn-cat" onclick="filtrarCategoria('efecto-calor', this)">EFECTO CALOR</button>
+                <button class="btn-cat" onclick="filtrarCategoria('orgasmicos', this)">ORGÁSMICOS</button>
+                <button class="btn-cat" onclick="filtrarCategoria('efecto-retardante', this)">EFECTO RETARDANTE</button>
+                <button class="btn-cat" onclick="filtrarCategoria('aceites', this)">ACEITES</button>
+                <button class="btn-cat" onclick="filtrarCategoria('masajes', this)">MASAJES</button>
+            </div>
+        </div>
+
+        <button class="btn-cat" onclick="filtrarCategoria('body-splash', this)">BODY SPLASH</button>
+    </nav>
+
+    <!-- Grilla de productos -->
+    <main id="grid-productos" class="grid-productos">
+        <!-- Renderizado dinámico desde app.js -->
+    </main>
+
+    <!-- MODAL DETALLE DE PRODUCTO (CUADRADO Y MÁS GRANDE) -->
+    <div id="modal-producto-overlay" class="modal-overlay" onclick="cerrarModalDetalle(event)">
+        <div class="modal-contenido modal-cuadrado">
+            <button class="btn-cerrar-modal" onclick="cerrarModalDetalleDirecto()">&times;</button>
+            <div class="modal-body">
+                <!-- Galería con Flechas de Navegación -->
+                <div class="modal-galeria">
+                    <button class="btn-flecha flecha-izq" onclick="cambiarImagenModal(-1)">&#10094;</button>
+                    <img id="modal-img-principal" src="" alt="Producto">
+                    <button class="btn-flecha flecha-der" onclick="cambiarImagenModal(1)">&#10095;</button>
+                </div>
+                
+                <div class="modal-info">
+                    <h2 id="modal-titulo"></h2>
+                    <div class="modal-contenedor-precio">
+                        <span id="modal-precio" class="modal-precio"></span>
+                        <span class="aclaracion-precio">(Precio de contado)</span>
+                    </div>
+                    <p id="modal-descripcion" class="modal-desc"></p>
+                    
+                    <!-- Selector de color -->
+                    <div id="modal-contenedor-colores" class="seccion-colores">
+                        <label class="label-color">Color:</label>
+                        <div id="modal-lista-colores" class="opciones-color"></div>
+                    </div>
+
+                    <!-- Selector de Cantidad y Botón de Agregar -->
+                    <div class="modal-acciones">
+                        <div class="selector-cantidad-modal">
+                            <button onclick="cambiarCantidadModal(-1)">-</button>
+                            <input type="number" id="modal-cantidad-input" value="1" min="1" readonly>
+                            <button onclick="cambiarCantidadModal(1)">+</button>
+                        </div>
+                        <button id="modal-btn-agregar" class="btn-agregar flex-1">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botones Flotantes (Esquina Inferior Derecha) -->
+    <div class="contenedor-flotantes">
+        <!-- Ícono del Carrito -->
+        <div class="icono-flotante" onclick="toggleMenuCarrito()">
+            <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span id="cant-carrito" class="badge-contador-interno">0</span>
+        </div>
+
+        <!-- Ícono de WhatsApp -->
+        <a href="https://wa.me/5493510000000" target="_blank" class="icono-flotante" aria-label="WhatsApp">
+            <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+        </a>
+    </div>
+
+    <!-- Menú Desplegable Lateral del Carrito -->
+    <div id="overlay-carrito" class="overlay-carrito" onclick="toggleMenuCarrito()"></div>
+    <aside id="menu-carrito" class="menu-carrito">
+        <div class="carrito-header">
+            <h2>Tu Carrito</h2>
+            <button class="btn-cerrar" onclick="toggleMenuCarrito()">&times;</button>
+        </div>
+
+        <div id="lista-carrito" class="carrito-body">
+            <!-- Se carga dinámicamente -->
+        </div>
+
+        <div class="carrito-footer">
+            <div class="total-contenedor">
+                <span>Total:</span>
+                <span id="monto-total">$0</span>
+            </div>
+            <button class="btn-enviar-pedido" onclick="enviarWhatsApp()">Enviar Pedido</button>
+        </div>
+    </aside>
+
+    <script src="app.js"></script>
+</body>
+</html>
