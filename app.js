@@ -33,7 +33,7 @@ const productos = [
             "img/dildochasehunter2.jpg",
             "img/dildochasehunter1.jpg"
         ],
-        descripcion: "Material CyberSkin (textura súper realista, flexible y de tacto templado) con detalles anatómicos marcados (venas y glande), Base con ventosa potente para fijar en superficies lisas o usar con arnés. Usar solo lubricante a base de agua y aplicar polvo renovador (o almidón de maíz) tras lavarlo para mantener la suavidad. Dimensiones : 17cm de largo x 4 cm de ancho"
+        descripcion: "Material CyberSkin (textura súper realista, flexible y de tacto templado) con detalles anatómicos marcados (venas y glande), Base con ventosa potente para fijar en surfaces lisas o usar con arnés. Usar solo lubricante a base de agua y aplicar polvo renovador (o almidón de maíz) tras lavarlo para mantener la suavidad. Dimensiones : 17cm de largo x 4 cm de ancho"
     },
     // 2. ESTIMULADORES Y VIBRADORES
     {
@@ -620,6 +620,53 @@ const productos = [
             "img/bodysplash-glitter1.jpg"
         ],
         descripcion: "Be Body Splash Con Feromonas Con Glitter! Contenido: 60 Ml. Irresistible como siempre. Irresistible como vos. Con pequeños destellos de luz que iluminan tu piel."
+    },
+    {
+        id: 52,
+        nombre: "Arnes De Piernas Regulable",
+        categoria: "lenceria-femenina",
+        precio: 3300,
+        imagenes: [
+            "img/arnes-pierna-regulable.jpeg",
+            "img/arnes-pierna-regulable1.jpeg"
+        ],
+        descripcion: "Arnes elastico negro regulable, con argolla cromada para mayor suavidad; SOLICITA TU TALLE DEL MODELO POR WHATSAPP"
+    },
+    {
+        id: 53,
+        nombre: "Arnes De Pecho Regulable blanco",
+        categoria: "lenceria-femenina",
+        precio: 3300,
+        imagenes: [
+            "img/arnes-pecho-regulable.jpeg",
+            "img/arnes-pecho-regulable1.jpeg",
+            "img/arnes-pecho-regulable2.jpeg"
+        ],
+        descripcion: "Arnes elastico para pecho regulable con decoraciones y medalla colgante, cerrado con gancho tipo flor, la regulacion abarca de un talle 1 al 6; SOLICITA TU TALLE DEL MODELO POR WHATSAPP"
+    },
+    {
+        id: 54,
+        nombre: "Conjunto Bunny",
+        categoria: "lenceria-femenina",
+        precio: 3300,
+        imagenes: [
+            "img/conjunto-bunny.jpeg",
+            "img/conjunto-bunny1.jpeg",
+            "img/conjunto-bunny2.jpeg"
+        ],
+        descripcion: "Conjunto de encaje blanco incluye , corpiño sin taza con volado de encaje e hilo dental con medalla de playboy; SOLICITA TU TALLE DEL MODELO POR WHATSAPP"
+    },
+    {
+        id: 55,
+        nombre: "Tanga Abierta Mariposa",
+        categoria: "lenceria-femenina",
+        precio: 3300,
+        imagenes: [
+            "img/tanga-abierta-mariposa.jpeg",
+            "img/tanga-abierta-mariposa1.jpeg",
+            "img/tanga-abierta-mariposa2.jpeg"
+        ],
+        descripcion: "Tanga de encaje abierta y regulable de color negro , medalla c/ brillante en el frente y aro metalico corazon en la parte trasera, la regulacion abarca: (CHICA: TALLES 1,2,3) Y (GRANDE:TALLES 4,5,6) ; SOLICITA TU TALLE DEL MODELO POR WHATSAPP"
     }
 ];
 
@@ -762,6 +809,10 @@ function filtrarPorTexto() {
     const textoBuscado = document.getElementById('input-buscar').value.toLowerCase();
     document.querySelectorAll('.btn-cat, .dropdown-contenido .btn-cat').forEach(btn => btn.classList.remove('activo'));
 
+    // Ocultar banner de lencería al buscar texto libre
+    const bannerLenceria = document.getElementById('banner-lenceria');
+    if (bannerLenceria) bannerLenceria.classList.add('oculto');
+
     const filtrados = productos.filter(prod => {
         const enNombre = prod.nombre.toLowerCase().includes(textoBuscado);
         const enDesc = prod.descripcion.toLowerCase().includes(textoBuscado);
@@ -775,6 +826,16 @@ function filtrarCategoria(cat, elemento) {
     document.getElementById('input-buscar').value = '';
     document.querySelectorAll('.btn-cat, .dropdown-contenido .btn-cat').forEach(btn => btn.classList.remove('activo'));
     
+    // Control de visibilidad del banner de Lencería
+    const bannerLenceria = document.getElementById('banner-lenceria');
+    if (bannerLenceria) {
+        if (cat === 'lenceria-femenina') {
+            bannerLenceria.classList.remove('oculto');
+        } else {
+            bannerLenceria.classList.add('oculto');
+        }
+    }
+
     if (elemento) {
         elemento.classList.add('activo');
         const contenedorDropdown = elemento.closest('.dropdown-categoria');
