@@ -625,7 +625,7 @@ const productos = [
         id: 52,
         nombre: "Arnes De Piernas Regulable",
         categoria: "lenceria-femenina",
-        precio: 3300,
+        precio: 8500,
         imagenes: [
             "img/arnes-pierna-regulable.jpeg",
             "img/arnes-pierna-regulable1.jpeg"
@@ -636,7 +636,7 @@ const productos = [
         id: 53,
         nombre: "Arnes De Pecho Regulable blanco",
         categoria: "lenceria-femenina",
-        precio: 3300,
+        precio: 19000,
         imagenes: [
             "img/arnes-pecho-regulable.jpeg",
             "img/arnes-pecho-regulable1.jpeg",
@@ -648,7 +648,7 @@ const productos = [
         id: 54,
         nombre: "Conjunto Bunny",
         categoria: "lenceria-femenina",
-        precio: 3300,
+        precio: 25000,
         imagenes: [
             "img/conjunto-bunny.jpeg",
             "img/conjunto-bunny1.jpeg",
@@ -660,7 +660,7 @@ const productos = [
         id: 55,
         nombre: "Tanga Abierta Mariposa",
         categoria: "lenceria-femenina",
-        precio: 3300,
+        precio: 9500,
         imagenes: [
             "img/tanga-abierta-mariposa.jpeg",
             "img/tanga-abierta-mariposa1.jpeg",
