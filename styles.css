@@ -685,3 +685,35 @@ body {
 .seccion-direccion-desplegable.oculto {
     display: none;
 }
+
+/* BANNER LENCERÍA FEMENINA */
+.banner-lenceria.oculto {
+    display: none;
+}
+
+.banner-lenceria {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 1200px;
+    margin: 15px auto;
+    padding: 0 5%;
+}
+
+.banner-lenceria img {
+    width: calc(50% - 8px);
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .banner-lenceria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-lenceria img {
+        width: 100%;
+    }
+}
